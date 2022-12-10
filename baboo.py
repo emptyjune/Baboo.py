@@ -9,7 +9,7 @@ class baboo(list):
 
     def __str__(self):
         self.str = self.defaultEmptyString
-        for i in self.list:
+        for i in reversed(self.list):
             self.str += str(i) + self.defaultBlank
         return self.str
 
